@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0; /* Black text color */
+  --background-start-rgb: 255, 255, 240; /* Ivory background color */
+  --background-end-rgb: 255, 255, 240; /* Ivory background color */
+}
+
+@media (prefers-color-scheme: white) { /* CUSTOMISE TIP 💡 : Set the colour theme to dark or white to change the colours of the web page to be responsive to the theme */
+  :root {
+    --foreground-rgb: 255, 255, 255; /* White text color */
+    --background-start-rgb: 0, 0, 0; /* Black background color */
+    --background-end-rgb: 0, 0, 0; /* Black background color */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
