@@ -40,6 +40,10 @@ body {
   font-weight: 500;
 }
 
+.font-bold {
+  font-weight: 650;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
