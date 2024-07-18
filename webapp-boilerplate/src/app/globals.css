@@ -32,6 +32,10 @@ body {
   }
 }
 
+.font-light {
+  font-weight: 450;
+}
+
 .font-medium {
   font-weight: 500;
 }

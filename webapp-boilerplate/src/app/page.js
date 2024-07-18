@@ -7,17 +7,17 @@ export default function Home() {
         for fast deployment
       </h1>
 
-      <p className="font-medium text-2xl text-center w-[650px] pb-40 text-[20px] leading-[24px]">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+      <p className="font-medium text-2xl text-center w-[650px] text-[20px] leading-[24px] z-20 absolute top-[35%]">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
       </p>
 
-      <div className="pb-50">
-      <ul className="list-none">
-        <li className="flex items-center"><span className="mr-2">✅</span> Lorem Ipsum</li>
-        <li className="flex items-center"><span className="mr-2">✅</span> Lorem Ipsum</li>
-        <li className="flex items-center"><span className="mr-2">✅</span> Lorem Ipsum</li>
-      </ul>
-    </div>
+      <div className="font-light absolute bottom-0 top-[50%] z-30">
+        <ul className="list-none">
+          <li className="flex items-center"><span className="mr-2">✅</span> Lorem Ipsum</li>
+          <li className="flex items-center"><span className="mr-2">✅</span> Lorem Ipsum</li>
+          <li className="flex items-center"><span className="mr-2">✅</span> Lorem Ipsum</li>
+        </ul>
+      </div>
     </main>
   );
 }
