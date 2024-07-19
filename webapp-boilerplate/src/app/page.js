@@ -51,8 +51,8 @@ export default function Home() {
 
       <div className="flex flex-col items-center space-y-4 mt-8 absolute top-[160%]">
         <p className="text-center">⭐⭐⭐⭐⭐</p>
-        <p className="text-center">
-          <span className="bg-yellow-200 font-medium">I don't want to spend more than an hour designing and coding a new website design every single time,</span>
+        <p className="text-center font-medium">
+          <span className="bg-yellow-200 font-bold">I don't want to spend more than an hour designing and coding a new website design every single time,</span>
           <br/>
           So I now use a website boilerplate to code my website with 2x work efficiency
           <br/>
@@ -72,6 +72,21 @@ export default function Home() {
       <h1 className="font-extrabold text-5xl lg:text-5xl tracking-tight text-center absolute top-[200%]">
         10x your productivity for every project onwards
       </h1>
+
+      <section className="w-full flex flex-col items-start absolute top-[215%] left-[15%] space-y-8">
+        <div>
+          <h2 className="text-[18px] font-bold mb-2 w-[450px]">1️⃣ Download the source code from  the Git repo</h2>
+          <p className="text-[14px] font-medium w-[550px]">Either clone or download the zip file of the source code into your system</p>
+        </div>
+        <div>
+          <h2 className="text-[18px] font-bold mb-2 w-[450px]">2️⃣ Make the necessary changes to accomodate your own product / app</h2>
+          <p className="text-[14px] font-medium w-[550px]">Change the site's name, description and other content to better suit your own project and system</p>
+        </div>
+        <div>
+          <h2 className="text-[18px] font-bold mb-2 w-[450px]">3️⃣ Upload the code to a server / domain with the changes</h2>
+          <p className="text-[14px] font-medium w-[550px]">After making the changes, upload your code to the domain or server of your choice with a new backend</p>
+        </div>
+      </section>
 
     </main>
   );
