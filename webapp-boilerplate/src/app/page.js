@@ -88,6 +88,24 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="flex flex-col items-center space-y-4 mt-8 absolute top-[260%]">
+        <p className="text-center">⭐⭐⭐⭐⭐</p>
+        <p className="text-center font-medium">
+          I added this web app boilerplate to my work folder and,
+          <br/>
+          <span className="bg-yellow-200 font-bold">now I just don't have to worry about designing a new style every time, I just make a few changes</span>
+          <br/>
+          and have a great looking web app landing page ready in a few hours
+        </p>
+        <div className="flex items-center space-x-4 mt-4">
+          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-lime-500" />
+          <div>
+            <h1 className="text-xl font-bold text-center">Mathhew B.</h1>
+            <p className="text-base text-center">15.7k followers on X</p>
+          </div>
+        </div>
+      </div>
+
     </main>
   );
 }
