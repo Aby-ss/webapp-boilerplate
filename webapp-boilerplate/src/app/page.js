@@ -106,6 +106,22 @@ export default function Home() {
         </div>
       </div>
 
+      <button className="bg-violet-800 text-white font-semibold py-1 px-9 rounded-lg mt-4 absolute top-[300%]" style={{ borderRadius: '50px' }}>
+        ✨ Launch discount — $50 OFF ✨
+      </button>
+
+      <h1 className="font-extrabold text-5xl lg:text-5xl tracking-tight text-center absolute top-[310%]">
+        Stop wasting hours
+        <br/>
+        managing designs
+      </h1>
+
+      <p className="font-semibold text-stone-900 text-base text-center absolute top-[327%]">
+        Ditch wasting hours on design code, messing around with CSS classes,
+        <br/>
+        spending countless hours thinking of a new section style. 2-min download setup.
+      </p>
+
     </main>
   );
 }
