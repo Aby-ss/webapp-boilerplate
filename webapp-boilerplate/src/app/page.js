@@ -61,7 +61,7 @@ export default function Home() {
           and focus on creating the features of web app for maximum customer retention
         </p>
         <div className="flex items-center space-x-4 mt-4">
-          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-lime-500" />
+          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-emerald-500" />
           <div>
             <h1 className="text-xl font-bold text-center">R. Andrew</h1>
             <p className="text-base text-center">21.3k followers on X</p>
@@ -98,7 +98,7 @@ export default function Home() {
           and have a great looking web app landing page ready in a few hours
         </p>
         <div className="flex items-center space-x-4 mt-4">
-          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-lime-500" />
+          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-emeraldw -500" />
           <div>
             <h1 className="text-xl font-bold text-center">Mathhew B.</h1>
             <p className="text-base text-center">15.7k followers on X</p>
@@ -125,6 +125,50 @@ export default function Home() {
       <button className="bg-green-500 text-white font-semibold py-4 px-20 rounded-lg mt-4 absolute top-[340%]" style={{ borderRadius: '20px' }}>
           Get Webapp Boilerplate
       </button>
+
+      <div className="absolute top-[350%]">
+        <div className="flex space-x-8 mt-8">
+          <div className="bg-slate-50 p-6 rounded-lg relative">
+          <h1 className="text-4xl font-extrabold mb-4 tracking-tight">
+            <span className="line-through text-[15px] font-bold text-slate-600">$99</span> $49 <span className="text-[15px] font-bold text-slate-600">USD</span>
+          </h1>
+            <ul className="list-none text-left mb-4">
+              <li className="flex items-center font-medium"><span className="mr-2">✅</span> Fast deployment and shipping</li>
+              <li className="flex items-center font-medium"><span className="mr-2">✅</span> Focus on creating the web application features</li>
+              <li className="flex items-center font-medium"><span className="mr-2">✅</span> A customisable colour palette and texts</li>
+              <li className="flex items-center font-medium"><span className="mr-2">✅</span> A classic design pattern</li>
+            </ul>
+            <button className="bg-green-500 text-white font-semibold py-4 px-20 rounded-lg mb-4" style={{ borderRadius: '20px' }}>
+              Get Webapp Boilerplate
+            </button>
+            <p className="text-center w-full font-bold text-[14px] text-slate-600">
+              One-time purchase, then it's <span className="underline">yours forever</span>
+            </p>
+          </div>
+          <div className="bg-slate-50 p-6 rounded-lg relative border-[2.5px] border-emerald-500">
+            <div className="absolute top-[-15px] left-1/2 transform -translate-x-1/2">
+              <button className="bg-emerald-500 text-[12px] text-white font-semibold py-1 px-5 rounded-lg" style={{ borderRadius: '50px' }}>
+                BUSY FOUNDERS' CHOICE
+              </button>
+            </div>
+            <h1 className="text-4xl font-extrabold mb-4 tracking-tight">
+              <span className="line-through text-[15px] font-bold text-slate-600">$119</span> $69 <span className="text-[15px] font-bol text-slate-600d">USD</span>
+            </h1>
+            <ul className="list-none text-left mb-4">
+              <li className="flex items-center font-medium"><span className="mr-2">✅</span> Fast deployment and shipping</li>
+              <li className="flex items-center font-medium"><span className="mr-2">✅</span> Focus on creating the web application features</li>
+              <li className="flex items-center font-medium"><span className="mr-2">✅</span> A customisable colour palette and texts</li>
+              <li className="flex items-center font-medium"><span className="mr-2">✅</span> A classic design pattern</li>
+            </ul>
+            <button className="bg-green-500 text-white font-semibold py-4 px-20 rounded-lg mb-4" style={{ borderRadius: '20px' }}>
+              Get Webapp Boilerplate
+            </button>
+            <p className="text-center w-full font-bold text-[14px] text-slate-600">
+              One-time purchase, then it's <span className="underline">yours forever</span>
+            </p>
+          </div>
+        </div>
+      </div>
 
     </main>
   );
