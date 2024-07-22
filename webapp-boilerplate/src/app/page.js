@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="font-extrabold text-3xl lg:text-4xl tracking-tight md:-mb-4 text-center pt-20">
+      <h1 className="font-extrabold text-5xl lg:text-5xl tracking-tight md:-mb-4 text-center pt-20">
         Homemade Web Application,
         <br/>
         for fast deployment
@@ -19,8 +19,8 @@ export default function Home() {
         </ul>
       </div>
 
-      <button className="bg-green-500 text-white font-semibold py-5 px-20 rounded-lg mt-4 absolute top-[80%]" style={{ borderRadius: '20px' }}>
-          Get Lorem Ipsum
+      <button className="bg-green-500 text-white font-semibold py-4 px-20 rounded-lg mt-4 absolute top-[80%]" style={{ borderRadius: '20px' }}>
+          Get Webapp Boilerplate
       </button>
 
       <h1 className="font-extrabold text-5xl lg:text-5xl tracking-tight text-center absolute top-[100%]">
@@ -106,7 +106,7 @@ export default function Home() {
         </div>
       </div>
 
-      <button className="bg-violet-800 text-white font-semibold py-1 px-9 rounded-lg mt-4 absolute top-[300%]" style={{ borderRadius: '50px' }}>
+      <button className="bg-violet-800 text-white font-semibold py-1 px-9 rounded-lg mt-4 absolute top-[300%] animate-fade" style={{ borderRadius: '50px' }}>
         ✨ Launch discount — $50 OFF ✨
       </button>
 
@@ -121,6 +121,10 @@ export default function Home() {
         <br/>
         spending countless hours thinking of a new section style. 2-min download setup.
       </p>
+
+      <button className="bg-green-500 text-white font-semibold py-4 px-20 rounded-lg mt-4 absolute top-[340%]" style={{ borderRadius: '20px' }}>
+          Get Webapp Boilerplate
+      </button>
 
     </main>
   );
