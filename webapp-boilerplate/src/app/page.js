@@ -98,7 +98,7 @@ export default function Home() {
           and have a great looking web app landing page ready in a few hours
         </p>
         <div className="flex items-center space-x-4 mt-4">
-          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-emeraldw -500" />
+          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-emerald-500" />
           <div>
             <h1 className="text-xl font-bold text-center">Mathhew B.</h1>
             <p className="text-base text-center">15.7k followers on X</p>
@@ -166,6 +166,24 @@ export default function Home() {
             <p className="text-center w-full font-bold text-[14px] text-slate-600">
               One-time purchase, then it's <span className="underline">yours forever</span>
             </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center space-y-4 mt-8 absolute top-[400%]">
+        <p className="text-center">⭐⭐⭐⭐⭐</p>
+        <p className="text-center font-medium">
+          Before using this webapp boileprlate I was spending more than what I wanted to spend
+          <br/>
+          designing my websites for my SaaS products. but now,<span className="bg-yellow-200 font-bold"> I only have to code for about 2 hours</span>
+          <br/>
+          and have a great looking web app landing page ready with all the necessary features
+        </p>
+        <div className="flex items-center space-x-4 mt-4">
+          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-emerald-500" />
+          <div>
+            <h1 className="text-xl font-bold text-center">Richard Brown</h1>
+            <p className="text-base text-center">85.4k followers on X</p>
           </div>
         </div>
       </div>
