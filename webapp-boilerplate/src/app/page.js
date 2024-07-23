@@ -1,30 +1,52 @@
+"use client";
+
+import { useState, useEffect } from 'react';
+
 export default function Home() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      setScrollPosition(position);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  // Calculate opacity based on scroll position (change 300 to whatever max scroll position you want)
+  const navbarOpacity = Math.max(1 - scrollPosition / 300, 0);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <nav className="bg-gray-50 p-4">
+      <nav className="bg-stone-100 p-4 fixed top-0 left-0 w-full z-10">
         <div className="container mx-auto flex items-center justify-center relative">
-          <div className="absolute left-[-150%] top-[-250%] text-black font-bold text-xl">
+          <div className="absolute left-0 text-black font-extrabold text-xl">
             Webapp Boilerplate
           </div>
           <ul className="flex space-x-10">
             <li>
-              <a href="#home" className="text-black hover:text-gray-300">
+              <a href="#home" className="font-bold hover:text-gray-400">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="text-black hover:text-gray-300">
+              <a href="#about" className="font-bold hover:text-gray-400">
                 About
               </a>
             </li>
             <li>
-              <a href="#pricing" className="text-black hover:text-gray-300">
+              <a href="#pricing" className="font-bold hover:text-gray-400">
                 Pricing
               </a>
             </li>
             <li>
-              <a href="#contact" className="text-black hover:text-gray-300">
+              <a href="#contact" className="font-bold hover:text-gray-400">
                 Contact
               </a>
             </li>
@@ -38,11 +60,11 @@ export default function Home() {
         for fast deployment
       </h1>
 
-      <p className="font-medium text-2xl text-center w-[650px] text-[20px] leading-[24px] z-20 absolute top-[45%]">
+      <p className="font-medium text-2xl text-center w-[650px] text-[20px] leading-[24px] absolute top-[45%]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
       </p>
 
-      <div className="font-light absolute bottom-0 top-[60%] z-30">
+      <div className="font-light absolute bottom-0 top-[60%]">
         <ul className="list-none">
           <li className="flex items-center"><span className="mr-2">✅</span> Lorem Ipsum</li>
           <li className="flex items-center"><span className="mr-2">✅</span> Lorem Ipsum</li>
