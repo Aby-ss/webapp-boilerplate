@@ -299,6 +299,50 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <section className="bg-slate-300 py-8 absolute top-[580%]">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between">
+            
+            <div className="md:w-1/2 mb-8 md:mb-0">
+              <h2 className="text-2xl font-bold mb-4">Links & Contact</h2>
+              <div className="mb-4">
+                <h3 className="text-xl font-semibold">Links</h3>
+                <ul className="list-none space-y-2">
+                  <li>
+                    <a href="#home" className="text-black hover:text-gray-600">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about" className="text-black hover:text-gray-600">About</a>
+                  </li>
+                  <li>
+                    <a href="#pricing" className="text-black hover:text-gray-600">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#contact" className="text-black hover:text-gray-600">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold">Contact</h3>
+                <p className="text-lg">
+                  If you have any questions or need support, please reach out to us at <a href="mailto:support@example.com" className="text-blue-600 hover:underline">support@example.com</a>.
+                </p>
+              </div>
+            </div>
+
+            <div className="md:w-1/2">
+            </div>
+          </div>
+
+          <div className="mt-8 flex items-center justify-center">
+            <img src="/path/to/your/profile-pic.jpg" alt="Developer Picture" className="w-8 h-8 rounded-full mr-2" />
+            <p className="text-center text-sm text-gray-700">
+              Made with ❤️ by [Your Name] - The Developer
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
