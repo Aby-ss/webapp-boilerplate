@@ -1,6 +1,37 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+
+      <nav className="bg-gray-50 p-4">
+        <div className="container mx-auto flex items-center justify-center relative">
+          <div className="absolute left-[-150%] top-[-250%] text-black font-bold text-xl">
+            Webapp Boilerplate
+          </div>
+          <ul className="flex space-x-10">
+            <li>
+              <a href="#home" className="text-black hover:text-gray-300">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="text-black hover:text-gray-300">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#pricing" className="text-black hover:text-gray-300">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="text-black hover:text-gray-300">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <h1 className="font-extrabold text-5xl lg:text-5xl tracking-tight md:-mb-4 text-center pt-20">
         Homemade Web Application,
         <br/>
