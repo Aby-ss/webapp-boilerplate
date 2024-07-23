@@ -18,13 +18,13 @@ export default function Home() {
     };
   }, []);
 
-  // Calculate opacity based on scroll position (change 300 to whatever max scroll position you want)
-  const navbarOpacity = Math.max(1 - scrollPosition / 300, 0);
+  // Calculate opacity based on scroll position (change 600 to whatever max scroll position you want)
+  const navbarOpacity = Math.max(0.3, 1 - scrollPosition / 600);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <nav className="bg-stone-100 p-4 fixed top-0 left-0 w-full z-10">
+      <nav className="bg-gray-50 p-4 fixed top-0 left-0 w-full z-10" style={{ opacity: navbarOpacity }}>
         <div className="container mx-auto flex items-center justify-center relative">
           <div className="absolute left-0 text-black font-extrabold text-xl">
             Webapp Boilerplate
