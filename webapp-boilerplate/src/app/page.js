@@ -241,6 +241,64 @@ export default function Home() {
         </div>
       </div>
 
+      <section className="flex flex-col md:flex-row p-8 absolute top-[435%]">
+        <div className="md:w-1/2 mb-8 md:mb-0">
+          <h1 className="text-3xl font-bold mb-4 ml-6">Frequently Asked Questions</h1>
+        </div>
+
+        <div className="md:w-1/2">
+          <div className="border-t border-b border-gray-300 py-4 mb-4">
+            <h2 className="text-xl font-extrabold mb-2 text-green-600">What is your return policy?</h2>
+            <p className="text-base font-bold text-slate-900">
+              Our return policy allows returns within 30 days of purchase. Items must be in original condition and packaging.
+            </p>
+          </div>
+          <div className="border-b border-gray-300 py-4 mb-4">
+            <h2 className="text-xl font-extrabold mb-2 text-green-600">How do I contact support?</h2>
+            <p className="text-base font-bold text-slate-900">
+              You can contact our support team via email at support@example.com or through our contact form on the website.
+            </p>
+          </div>
+          <div className="border-b border-gray-300 py-4 mb-4">
+            <h2 className="text-xl font-extrabold mb-2 text-green-600">Do you offer international shipping?</h2>
+            <p className="text-base font-bold text-slate-900">
+              Yes, we offer international shipping to most countries. Shipping costs will be calculated at checkout.
+            </p>
+          </div>
+          <div className="border-b border-gray-300 py-4 mb-4">
+            <h2 className="text-xl font-extrabold mb-2 text-green-600">Do you offer international shipping?</h2>
+            <p className="text-base font-bold text-slate-900">
+              Yes, we offer international shipping to most countries. Shipping costs will be calculated at checkout.
+            </p>
+          </div>
+          <div className="border-b border-gray-300 py-4 mb-4">
+            <h2 className="text-xl font-extrabold mb-2 text-green-600">Do you offer international shipping?</h2>
+            <p className="text-base font-bold text-slate-900">
+              Yes, we offer international shipping to most countries. Shipping costs will be calculated at checkout.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div className="flex flex-col items-center space-y-4 mt-8 absolute top-[530%]">
+        <p className="text-center">⭐⭐⭐⭐⭐</p>
+        <p className="text-center font-medium">
+          <span className="bg-yellow-200 font-bold">I don't want to spend more than an hour designing and coding a new website design every single time,</span>
+          <br/>
+          So I now use a website boilerplate to code my website with 2x work efficiency
+          <br/>
+          With this webapp boilerplate, I can now finish my tasks of creating a landing page in a few hours
+          <br/>
+          and focus on creating the features of web app for maximum <span className="text-blue-600 font-bold">@customer</span> retention
+        </p>
+        <div className="flex items-center space-x-4 mt-4">
+          <img src="/path/to/your/image.jpg" alt="Profile" className="w-16 h-16 rounded-full border-4 border-emerald-500" />
+          <div>
+            <h1 className="text-xl font-bold text-center">R. Andrew</h1>
+            <p className="text-base text-center">21.3k followers on X</p>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
